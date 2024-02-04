@@ -58,50 +58,6 @@ After successfully installing the OS onto its own SSD *(i.e. partitions fully fo
 
 
 # Apps
-Section is continuously updated to ensure an administrative log is kept of all packages installed. Will also keep track of any required dependencies that need to be isntall
+Section is continuously updated to ensure an administrative log is kept of all packages installed. Will also keep track of any required dependencies that need to be install.
 
-##### Nala
-    sudo apt-get install nala
-
-
-##### Neofetch
-    sudo nala install neofetch
-
-
-##### wget
-    sudo nala install wget
-
-
-##### Floorp Browser
-    https://floorp.app/
-
-
-##### Proton VPN
-    https://proton.me/
-
-
-##### vscodium
-
-    https://vscodium.com/#install-on-debian-ubuntu-deb-package
-
-  *To view the VScodium debian repository: 
-   https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo*
-
-- **Add debian vscodium repo gpg-key**
-
-   `wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
-    | gpg --dearmor \
-    | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
-    `
-
-- **Add pre-compiled codium repo**
-
-   `echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.gpg ] https://download.vscodium.com/debs vscodium main' \
-    | sudo tee /etc/apt/sources.list.d/vscodium.list`
-
-- **Run an update & install Codium**
-
-    `sudo nala update && sudo nala install codium`
-
-
-#Themes
+# Themes
