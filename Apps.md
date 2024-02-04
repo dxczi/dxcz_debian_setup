@@ -37,3 +37,15 @@ Use to keep track of all installations.
 
     https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo
 
+##### git credential manager
+
+    https://github.com/git-ecosystem/git-credential-manager/tree/release?tab=readme-ov-file
+
+###### To Install:
+>Download latest .deb package
+>sudo dpkg -i <path-to-package>
+>git-credential-manager configure
+
+###### To uninstall:
+>git-credential-manager unconfigure
+>sudo dpkg -r gcm
